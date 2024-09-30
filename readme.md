@@ -53,7 +53,7 @@
 | 属性 | 说明 | 类型 | 可选值 | 默认值 |
 | ---- | ---- | ---- | ---- | ---- |
 | `hold` | 挂载的元素 | `string` | - | - |
-| `toolBars` | 配置隐藏工具栏展示的工具项 | string[] | - | - |
+| `toolBars` | 配置隐藏工具栏展示的工具项 | string[] | `['base:H', 'base:AiWrite', 'base:Link','base:Image', 'base:Quote', 'base:Table', 'base:Checkbox', 'base:OrderList', 'base:UnorderList', 'base:CodeBox', 'base:Divider', 'base:Alert', 'media:Math', 'media:Audio', 'media:Video', 'media:PDFParser', 'media:DocParser', 'media:Iframe','media:MindChart']` | - |
 | `theme` | 编辑器默认主题 | `'light' \| 'dark'` | - | `light` |
 | `outline` | 是否展示文档大纲，默认展示 | `boolean` | - | `true` |
 | `token` | 配置请求的 token 参数 | `string` | - | - |
